@@ -1,0 +1,32 @@
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.dish-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.dish-currency-price {
+  font-family: 'Roboto';
+  font-size: 15px;
+  align-self: flex-start;
+}
+
+.dish-description{
+  font-family: 'Roboto';
+  font-size: 15px;
+  flex: start;
+  align-self: flex-start;
+
+}

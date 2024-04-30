@@ -1,0 +1,33 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.sub-container {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-end;
+
+  width: 90%;
+  max-width: 1110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.heading {
+  color: black;
+  font-family: 'Robot';
+   cursor: pointer;
+}
